@@ -3,12 +3,12 @@
 //
 // See HW4 writeup for more hints and details.
 class App {
-  constructor() {
-    const menuElement = document.querySelector('#menu');
-    this.menu = new MenuScreen(menuElement);
-
-    const musicElement = document.querySelector('#music');
-    this.music = new MusicScreen(musicElement);
-  }
-
+  	constructor() {
+    	// TODO(you): Implement the constructor and add fields as necessary.
+  		const menuElement = document.querySelector('#menu');
+  		const musicElement = document.querySelector('#music');
+    	this.menu = new MenuScreen(menuElement);
+    	this.music = new MusicScreen(musicElement);
+  	}
+  	// TODO(you): Add methods as necessary.
 }
