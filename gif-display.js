@@ -37,7 +37,7 @@ class GifDisplay {
             app.menu.hide();
             app.music.show();
             this.currentIndex = Math.floor(Math.random() * this.urls_gif.length);
-            g.style.backgroundImage = "url(" + this.urls_gif[this.currentIndex] + ")";
+            this.g.style.backgroundImage = "url(" + this.urls_gif[this.currentIndex] + ")";
             this.next_gif();
         }
     }
