@@ -3,7 +3,7 @@
 // variables.
 const app = new App();
 var songURL = new Array(10);
-
+let s = document.getElementById('song-selector');
 function onResponse(res) {
     return res.text();
 }
