@@ -40,6 +40,7 @@ class AudioPlayer {
   }
 
   _onKickCallback() {
+    app.music.gif.change();
     if (!this.kickCallback) {
       return;
     }
