@@ -34,7 +34,7 @@ class GifDisplay {
             e.classList.remove('inactive');
         }
         else {
-            pp.menu.hide();
+            app.menu.hide();
             app.music.show();
             this.currentIndex = Math.floor(Math.random() * this.urls_gif.length);
             g.style.backgroundImage = "url(" + this.urls_gif[this.currentIndex] + ")";
