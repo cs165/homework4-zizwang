@@ -2,6 +2,10 @@
 // the music visualizer.
 //
 // See HW4 writeup for more hints and details.
+var s = document.getElementById('song-selector');
+var t = document.getElementById('query-input');
+var e = document.getElementById('error');
+
 class MenuScreen {
     constructor(containerElement) {
         // TODO(you): Implement the constructor and add fields as necessary.
@@ -11,7 +15,6 @@ class MenuScreen {
             .then(onResponse)
             .then(onDataReady);
 
-        let t = document.getElementById('query-input');
         let theme = ['candy', 'charlie brown', 'computers', 'dance', 'donuts', 
                      'hello kitty', 'flowers', 'nature', 'turtles', 'space'];
         

@@ -2,14 +2,14 @@
 // classes or to call methods on `App`. You may not add any global state
 // variables.
 const app = new App();
-var songURL = new Array(10);
-let s = document.getElementById('song-selector');
+let songURL = new Array(10);
+
 function onResponse(res) {
     return res.text();
 }
 
 function onDataReady(text) {
-    var urls = text.split('\n');
+    let urls = text.split('\n');
     let j = 0;
     
     for (i = 0; i < 6; i++) {
